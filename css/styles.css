@@ -7,7 +7,6 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    height: 100vh;
 }
 
 .left-section{
@@ -101,7 +100,7 @@ body{
 }
 
 .experience-table li{
-    line-height: 20px;
+    line-height: normal;
 }
 
 
