@@ -2,6 +2,7 @@ body{
    margin: auto;
    width: 80%;
    font-family: 'Open Sans', sans-serif;
+   background-color: #e1e5f2;
 }
 
 .container{
@@ -19,7 +20,7 @@ body{
 
 .right-section{
     flex-grow: 3;
-    background-color: #D7FFF1;
+    background-color: white;
 }
 
 .section-item{
