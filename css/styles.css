@@ -93,6 +93,19 @@ body{
     width: 100%;
     line-height: 0;
 }
+
+.experience-table {
+    width: 100%;
+    line-height: 0px;
+    
+}
+
+.experience-table li{
+    line-height: 20px;
+}
+
+
+
 @media only screen and (max-width: 768px){
     body{
         width: 100%;
