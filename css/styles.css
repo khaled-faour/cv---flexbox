@@ -1,0 +1,37 @@
+body{
+   margin: auto;
+   width: 80%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.left-section{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #aafcb8;
+}
+
+.right-section{
+    flex-grow: 3;
+    background-color: #D7FFF1;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .left-section{
+        flex-direction: row;
+    }
+}
