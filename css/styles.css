@@ -33,6 +33,10 @@ body{
     width: 200px;
 }
 
+.p-info{
+    line-height: 0px;
+}
+
 @media only screen and (max-width: 768px){
     body{
         width: 100%;
