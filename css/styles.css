@@ -22,6 +22,12 @@ body{
     background-color: #D7FFF1;
 }
 
+.profile-picture-container{
+    background-color: #D7FFF1;
+    padding: 10px;
+    border-radius: 50%;
+}
+
 .profile-picture{
     border-radius: 50%;
     width: 200px;
