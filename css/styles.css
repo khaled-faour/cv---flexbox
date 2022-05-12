@@ -23,6 +23,9 @@ body{
     background-color: #D7FFF1;
 }
 
+.section-item{
+    margin: 20px;
+}
 
 .profile-picture-container{
     background-color: #D7FFF1;
