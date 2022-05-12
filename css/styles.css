@@ -23,6 +23,7 @@ body{
     background-color: #D7FFF1;
 }
 
+
 .profile-picture-container{
     background-color: #D7FFF1;
     padding: 10px;
@@ -62,6 +63,27 @@ body{
 .fa-envelope {
     background: #55ACEE;
     color: white;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .5em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .5em;
 }
 
 @media only screen and (max-width: 768px){
