@@ -37,6 +37,9 @@ body{
     width: 200px;
 }
 
+.left-section .details .section-item{
+    text-align: center;
+}
 .p-info{
     line-height: 10px;
 }
@@ -117,5 +120,9 @@ body{
 
     .left-section{
         flex-direction: row;
+    }
+
+    .left-section .details .section-item{
+        text-align: left;
     }
 }
