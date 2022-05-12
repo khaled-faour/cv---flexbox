@@ -56,13 +56,12 @@ body{
 }
 
 
-/* Facebook */
 .fa-linkedin {
     background: #007bb5;
     color: white;
 }
   
-/* Twitter */
+
 .fa-envelope {
     background: #55ACEE;
     color: white;
@@ -89,6 +88,11 @@ body{
   margin-left: .5em;
 }
 
+
+.education-table{
+    width: 100%;
+    line-height: 0;
+}
 @media only screen and (max-width: 768px){
     body{
         width: 100%;
