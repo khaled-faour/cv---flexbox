@@ -14,11 +14,17 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #aafcb8;
+    align-items: center;
 }
 
 .right-section{
     flex-grow: 3;
     background-color: #D7FFF1;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    width: 200px;
 }
 
 @media only screen and (max-width: 768px){
